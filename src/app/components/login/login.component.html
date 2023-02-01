@@ -1,0 +1,18 @@
+<body class="text-center">
+<main class="form-signin w-100 m-auto">
+    <form class="form-login" #Formulario="ngForm" (ngSubmit)="login(Formulario)" >
+      <img class="mb-4" src="https://www.tepic.tecnm.mx/images/escudo_itt_grande.png" alt="" width="80" height="80">
+      <h1 class="h3 mb-3 fw-normal">Autenticación</h1>
+      <div class="form-floating">
+        <input type="email" name="usuario" class="form-control" style="width: 200px; display: flex; align-items: center; justify-content: center;" ngModel>
+        <label class="nombreUsuario">Nombre de usuario</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="contraseña" class="form-control" style="width: 200px; display: flex; align-items: center; justify-content: center;"  ngModel>
+        <label class="contraseñaUsuario">Contraseña</label>
+      </div>
+      <br>
+      <button class="w-30 btn btn-lg btn-dark" type="submit" >Login</button>
+    </form>
+  </main>
+</body>

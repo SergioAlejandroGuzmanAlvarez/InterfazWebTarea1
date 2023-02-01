@@ -1,0 +1,21 @@
+.form-floating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nombreUsuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+}
+.contraseñaUsuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+}
+.form-login{
+    position: relative;
+    margin-top: 80px;
+}
